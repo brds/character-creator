@@ -9,8 +9,6 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
-  /* Prevent the perspective div to sit above control pane on z-axis */
-  isolation: isolate;
 }
 
 .title {
