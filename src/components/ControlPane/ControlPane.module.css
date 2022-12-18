@@ -1,7 +1,6 @@
 .controlPane {
-  padding: 24px;
-  /* Optical centering */
-  padding-top: 18px;
+  /* padding-top for optical centering */
+  padding: 18px 4px 4px;
   background-color: white;
   border-radius: 8px;
   /*
@@ -10,12 +9,15 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  /* Prevent the perspective div to sit above control pane on z-axis */
+  isolation: isolate;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+  margin-left: 20px;
 }
 
 .metadata {
